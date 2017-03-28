@@ -1,0 +1,25 @@
+/********** Base styles **********/
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    /*Reset browser's default margin, padding, and fonts*/
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /*background-color: #eeeeee;*/
+    background: #eeeeee; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#eeeeee, #bdbdbd); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#eeeeee, #bdbdbd); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#eeeeee, #bdbdbd); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#eeeeee, #bdbdbd); /* Standard syntax (must be last) */
+}
